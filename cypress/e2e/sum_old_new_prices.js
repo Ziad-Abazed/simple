@@ -1,9 +1,6 @@
 /// <reference types= "cypress" />
 
 describe('assigment ', () => {
-    let sumNew = 0;
-
-    let sumOld = 0;
 
     it('Sum of the new and old prices', () => {
 
@@ -32,7 +29,7 @@ describe('assigment ', () => {
             })
             cy.log(sumOld)
 
-            
+
             alert(`the result for sum old prices is ${sumOld} \n the result for sum new prices is ${sumNew}`)
           })
 
